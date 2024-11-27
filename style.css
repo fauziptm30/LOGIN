@@ -1,0 +1,80 @@
+.banner {
+  background: url("https://i.pinimg.com/736x/d7/73/5b/d7735b40769afd263bb4b75373b6fa7e.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #fff;
+  
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.floating-text {
+  margin: 0;
+}
+
+.portfolio-btn {
+  margin-top: 20px; 
+  width: 150px;
+  height: 20px;
+}
+.floating-text {
+  animation: float 3s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0); /* Start and end at the original position */
+  }
+  50% {
+    transform: translateY(-10px); /* Move text upwards by 10px */
+  }
+}
+.bold-text {
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
+}
